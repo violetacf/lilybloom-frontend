@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 //Import components here
+import SocialMediaLinks from '../SocialMediaLinks/SocialMediaLinks';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           {/* <Route path="portfolio" element={<Gallery />} /> */}
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
+        <SocialMediaLinks />
       </BrowserRouter>
     </div>
   );

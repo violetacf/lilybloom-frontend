@@ -5,7 +5,7 @@ import SocialMediaLinks from '../SocialMediaLinks/SocialMediaLinks';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app-container">
       <BrowserRouter>
         {/* <NavBar /> */}
         <Routes>

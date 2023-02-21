@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-  --textColor: #d3fff3;
-  --secondaryColor: #181a1b;
-  --mainColor: #8a61b3;
-  --mainColorLight: #f1cc02;
+  --textColor: #000000;
+  --secondaryColor: #82dd8e;
+  --mainColor: #000000;
+  --mainColorLight: #ffffff;
 }
 
 * {
@@ -13,8 +13,22 @@
   font-family: 'Poppins', sans-serif;
   font-size: 17pt;
   color: var(--textColor);
-  background-color: var(--secondaryColor);
+  background-color: var(--mainColorLight);
 }
+
+/* Add background image?
+
+.app-container {
+  color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../../Images/blackandWhite.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 @media only screen and (max-width: 1024px) {
   * {

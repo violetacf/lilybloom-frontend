@@ -13,4 +13,9 @@
 
 .created-container a {
   text-decoration: none;
+  font-size: 11pt;
+}
+
+.created-container p {
+  font-size: 11pt;
 }

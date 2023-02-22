@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import About from '../About/About';
 import NavBar from '../NavBar/NavBar';
 import Gallery from '../Gallery/Gallery';
+import CreatedBy from '../Created/Created';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </Routes>
         <SocialMediaLinks />
       </BrowserRouter>
+      <CreatedBy />
     </div>
   );
 }

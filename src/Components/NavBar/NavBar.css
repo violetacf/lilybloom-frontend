@@ -16,3 +16,16 @@
   margin-bottom: 20pt;
 }
 
+@media only screen and (max-width: 1024px) {
+  .navbar-button {
+    min-width: 100%;
+    width: 200pt;
+  }
+  .navbar-buttons-container {
+    margin-top: 20pt;
+    display: flex;
+    justify-content: center;
+    gap: 20pt;
+    margin-bottom: 20pt;
+  }
+}

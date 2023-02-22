@@ -1,4 +1,5 @@
 .social-media-container {
+  margin-top: 30pt;
   display: flex;
   flex-direction: column;
   gap: 20pt;
@@ -12,4 +13,14 @@
 
 .links-logo {
   width: 40pt;
+}
+
+@media only screen and (max-width: 1024px) {
+  .social-media-container {
+    gap: 10pt;
+  }
+
+  .img-logo-container {
+    gap: 10pt;
+  }
 }

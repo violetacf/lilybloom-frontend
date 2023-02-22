@@ -1,9 +1,14 @@
 .created-container {
-  display: flex;
+  /* display: flex;
   margin-top: 40px;
   justify-content: center;
+  text-align: center; */
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
-  text-decoration: none;
+  margin-top: 30pt;
 }
 
 .created-container a {

@@ -1,0 +1,15 @@
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20pt;
+}
+
+.img-logo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20pt;
+}
+
+.links-logo {
+  width: 40pt;
+}

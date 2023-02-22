@@ -32,9 +32,9 @@
 
 @media only screen and (max-width: 1024px) {
   * {
+    padding: 0;
+    margin: 3pt;
     font-family: 'Poppins', sans-serif;
     font-size: 12pt;
-    color: var(--textColor);
-    background-color: var(--secondaryColor);
   }
 }

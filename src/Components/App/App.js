@@ -1,6 +1,5 @@
 import './App.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-//Import components here
 import SocialMediaLinks from '../SocialMediaLinks/SocialMediaLinks';
 import Header from '../Header/Header';
 import About from '../About/About';

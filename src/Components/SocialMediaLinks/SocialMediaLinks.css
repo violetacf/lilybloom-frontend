@@ -1,14 +1,23 @@
 .social-media-container {
   margin-top: 30pt;
   display: flex;
-  flex-direction: column;
-  gap: 20pt;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30pt;
 }
 
 .img-logo-container {
   display: flex;
   flex-direction: row;
-  gap: 20pt;
+  gap: 10pt;
+}
+
+.img-logo-container p {
+  align-self: center;
+}
+
+.img-logo-container a {
+  align-self: center;
 }
 
 .links-logo {
@@ -18,9 +27,14 @@
 @media only screen and (max-width: 1024px) {
   .social-media-container {
     gap: 10pt;
+    flex-direction: column;
   }
 
   .img-logo-container {
     gap: 10pt;
+  }
+
+  .img-logo-container p {
+    align-self: center;
   }
 }

@@ -7,7 +7,6 @@ import './SocialMediaLinks.css';
 function SocialMediaLinks() {
   return (
     <div className="social-media-container">
-      <h2 className="subtitle">You can contact Lilian here:</h2>
       <div className="img-logo-container">
         <img className="links-logo" src={InstagramLogo} alt="Instagram logo" />
         <a href="https://instagram.com" target="_blank" rel="noreferrer">

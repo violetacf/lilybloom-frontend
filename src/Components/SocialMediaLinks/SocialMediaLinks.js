@@ -16,7 +16,7 @@ function SocialMediaLinks() {
           target="_blank"
           rel="noreferrer"
         >
-          @lilianInstagram
+          @lilybloomfloral
         </a>
       </div>
       <div className="img-logo-container">

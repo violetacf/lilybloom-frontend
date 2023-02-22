@@ -11,4 +11,16 @@
 }
 
 .gallery-item img {
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .gallery-item {
+    display: flex;
+    flex-direction: column;
+    gap: 7pt;
+  }
+  .gallery-item img {
+    max-width: 100%;
+  }
 }

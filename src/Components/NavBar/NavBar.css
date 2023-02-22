@@ -1,0 +1,18 @@
+.navbar-button {
+  min-width: 100%;
+  width: 200pt;
+}
+
+.navbar-button:hover {
+  background-color: var(--secondaryColor);
+  cursor: pointer;
+}
+
+.navbar-buttons-container {
+  margin-top: 20pt;
+  display: flex;
+  justify-content: center;
+  gap: 20pt;
+  margin-bottom: 20pt;
+}
+

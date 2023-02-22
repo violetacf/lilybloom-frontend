@@ -1,0 +1,14 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20pt;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: row;
+  gap: 20pt;
+}
+
+.gallery-item img {
+}

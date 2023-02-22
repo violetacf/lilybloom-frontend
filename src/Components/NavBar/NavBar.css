@@ -4,6 +4,7 @@
   height: 32pt;
   font-size: 20pt;
   border-radius: 4pt;
+  border-color: var(--mainColor);
 }
 
 .navbar-button:hover {

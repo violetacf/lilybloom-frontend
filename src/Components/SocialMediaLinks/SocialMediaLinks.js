@@ -3,6 +3,7 @@ import InstagramLogo from '../../Images/InstagramLogo.png';
 import Telephone from '../../Images/Telephone.png';
 import Email from '../../Images/Email.png';
 import Where from '../../Images/Where.png';
+import ButtonMailto from './ContactForm';
 import './SocialMediaLinks.css';
 
 function SocialMediaLinks() {
@@ -24,7 +25,10 @@ function SocialMediaLinks() {
       </div>
       <div className="img-logo-container">
         <img className="links-logo" src={Email} alt="Email logo" />
-        <p>lilian@email.com</p>
+        <ButtonMailto
+          label="lilian@email.com"
+          mailto="mailto:lilian@email.com"
+        />
       </div>
       <div className="img-logo-container">
         <img className="links-logo" src={Where} alt="Where logo" />

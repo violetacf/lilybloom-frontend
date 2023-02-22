@@ -14,10 +14,12 @@
 
 .img-logo-container p {
   align-self: center;
+  text-decoration: none;
 }
 
 .img-logo-container a {
   align-self: center;
+  text-decoration: none;
 }
 
 .links-logo {

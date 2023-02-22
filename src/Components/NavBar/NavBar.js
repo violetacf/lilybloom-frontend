@@ -13,10 +13,10 @@ export default function NavBar() {
           {' '}
           <button className="navbar-button"> Gallery </button>
         </a>
-        <a href="/events">
+        {/* <a href="/events">
           {' '}
           <button className="navbar-button"> Events </button>
-        </a>
+        </a> */}
       </div>
     </div>
   );

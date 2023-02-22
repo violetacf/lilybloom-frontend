@@ -3,6 +3,7 @@
   width: 200pt;
   height: 32pt;
   font-size: 20pt;
+  border-radius: 4pt;
 }
 
 .navbar-button:hover {

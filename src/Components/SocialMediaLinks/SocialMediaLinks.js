@@ -3,7 +3,7 @@ import InstagramLogo from '../../Images/InstagramLogo.png';
 import Telephone from '../../Images/Telephone.png';
 import Email from '../../Images/Email.png';
 import Where from '../../Images/Where.png';
-import ButtonMailto from './ContactForm';
+import ButtonMailto from './ButtonMailto';
 import './SocialMediaLinks.css';
 
 function SocialMediaLinks() {

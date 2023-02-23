@@ -21,7 +21,7 @@ function SocialMediaLinks() {
       </div>
       <div className="img-logo-container">
         <img className="links-logo" src={Telephone} alt="Telephone logo" />
-        <a href="tel:+447936177150">+447936177150</a>
+        <a href="tel:+44madeupnumber">+44madeupnumber</a>
       </div>
       <div className="img-logo-container">
         <img className="links-logo" src={Email} alt="Email logo" />

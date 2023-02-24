@@ -9,13 +9,31 @@
   width: 100%;
   text-align: center;
   margin-top: 30pt;
+  display: flex;
+  justify-content: center;
 }
 
 .created-container a {
   text-decoration: none;
   font-size: 12pt;
+  align-self: center;
 }
 
 .created-container p {
   font-size: 12pt;
+  align-self: center;
+}
+
+.left-leaf {
+  transform: rotate(-90deg);
+}
+
+.right-leaf {
+  transform: rotate(90deg);
+}
+
+.leaves {
+  width: 20pt;
+  height: 100%;
+  align-self: center;
 }

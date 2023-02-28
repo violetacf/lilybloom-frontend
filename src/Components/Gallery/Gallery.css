@@ -11,7 +11,17 @@
 }
 
 .gallery-item img {
-  max-width: 50%;
+  max-width: 100%;
+}
+
+.title-image-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 45%;
+}
+
+.gallery-item p {
+  margin-top: 45pt;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -22,5 +32,12 @@
   }
   .gallery-item img {
     max-width: 100%;
+    margin: 0;
+  }
+  .gallery-item p {
+    margin-top: 0pt;
+  }
+  .title-image-container h1 {
+    margin-left: 0;
   }
 }

@@ -1,10 +1,10 @@
-import LilLogo from '../../Images/LilLogo.jpg';
+import LilyBloomLogo from '../../Images/LilyBloomLogo.png';
 import './Header.css';
 
 function Header() {
   return (
     <div className="header-container">
-      <img src={LilLogo} alt="Lilian logo"></img>
+      <img src={LilyBloomLogo} alt="Lilian logo"></img>
     </div>
   );
 }

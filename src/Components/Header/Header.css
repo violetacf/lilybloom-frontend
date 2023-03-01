@@ -1,8 +1,11 @@
 .header-container {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .header-container img {
   max-width: 100%;
+  min-width: auto;
+  width: 300pt;
 }

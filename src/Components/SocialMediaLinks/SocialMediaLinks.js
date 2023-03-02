@@ -21,13 +21,13 @@ function SocialMediaLinks() {
       </div>
       <div className="img-logo-container">
         <img className="links-logo" src={Telephone} alt="Telephone logo" />
-        <a href="tel:+44madeupnumber">+44madeupnumber</a>
+        <a href="tel:+447936177150">+44 7936 177150</a>
       </div>
       <div className="img-logo-container">
         <img className="links-logo" src={Email} alt="Email logo" />
         <ButtonMailto
-          label="lilian@email.com"
-          mailto="mailto:lilian@email.com"
+          label="mcgroartylilian@gmail.com"
+          mailto="mailto:mcgroartylilian@gmail.com"
         />
       </div>
       <div className="img-logo-container">

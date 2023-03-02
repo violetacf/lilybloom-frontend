@@ -1,8 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/flower-powers');
+@import url('https://fonts.cdnfonts.com/css/kbtheflowerfarm');
+@import url('https://fonts.cdnfonts.com/css/flower1');
+@import url('https://fonts.cdnfonts.com/css/nebulo');
+/* See which one Lil prefers ^^ */
+
 .navbar-button {
   min-width: 100%;
   width: 200pt;
-  height: 32pt;
-  font-size: 20pt;
+  /* height: 32pt; */
+  height: auto;
+  /* font-size: 20pt; */
+  font-size: 35pt;
+  /* font-family:  'Flower Powers', sans-serif; */
+  /* font-family: 'KBTheFlowerFarm', sans-serif; */
+  font-family: 'flower1', sans-serif;
+  /* font-family: 'Nebulo', sans-serif; */
   border-radius: 4pt;
   border-color: var(--mainColor);
 }

@@ -1,4 +1,3 @@
-import image2 from './../../Images/flowers.jpg';
 import './Gallery.css';
 import posts from '../../Data/Posts.js';
 import GalleryItem from './GalleryItem';

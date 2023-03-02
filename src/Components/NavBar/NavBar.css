@@ -35,8 +35,9 @@
 @media only screen and (max-width: 1024px) {
   .navbar-button {
     min-width: 100%;
-    font-size: 17pt;
-    height: 30pt;
+    /* font-size: 17pt; */
+    font-size: 30pt;
+    /* height: 30pt; */
   }
   .navbar-buttons-container {
     margin-top: 10pt;

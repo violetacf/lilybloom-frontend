@@ -4,6 +4,10 @@
   gap: 20pt;
 }
 
+.title-image-container img {
+  border-radius: 4pt;
+}
+
 .gallery-item {
   display: flex;
   flex-direction: row;

@@ -26,8 +26,8 @@ function SocialMediaLinks() {
       <div className="img-logo-container">
         <img className="links-logo" src={Email} alt="Email logo" />
         <ButtonMailto
-          label="mcgroartylilian@gmail.com"
-          mailto="mailto:mcgroartylilian@gmail.com"
+          label="lilybloomfloral@gmail.com"
+          mailto="mailto:lilybloomfloral@gmail.com"
         />
       </div>
       <div className="img-logo-container">

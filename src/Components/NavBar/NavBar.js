@@ -1,5 +1,4 @@
 import './NavBar.css';
-import About from '../About/About';
 
 export default function NavBar() {
   return (
@@ -12,6 +11,10 @@ export default function NavBar() {
         <a href="/gallery">
           {' '}
           <button className="navbar-button"> Gallery </button>
+        </a>
+        <a href="/contact">
+          {' '}
+          <button className="navbar-button"> Contact </button>
         </a>
         {/* <a href="/events">
           {' '}

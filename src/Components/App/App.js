@@ -6,6 +6,7 @@ import About from '../About/About';
 import NavBar from '../NavBar/NavBar';
 import Gallery from '../Gallery/Gallery';
 import CreatedBy from '../Created/Created';
+import Contact from '../Contact/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="gallery" element={<Gallery />} />
+          <Route path="contact" element={<Contact />} />
           {/* <Route path="events" element={<Events />} /> */}
         </Routes>
         <SocialMediaLinks />

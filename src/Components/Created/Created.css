@@ -17,6 +17,10 @@
   text-decoration: none;
   font-size: 12pt;
   align-self: center;
+  color: var(--mainColor);
+}
+.created-container a:hover {
+  color: var(--secondaryColor);
 }
 
 .created-container p {

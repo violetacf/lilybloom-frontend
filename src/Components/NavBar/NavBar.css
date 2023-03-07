@@ -22,6 +22,7 @@
 .navbar-button:hover {
   background-color: var(--secondaryColor);
   cursor: pointer;
+  color: var(--mainColorLight);
 }
 
 .navbar-buttons-container {

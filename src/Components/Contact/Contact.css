@@ -10,8 +10,11 @@ Form {
   padding: 20px;
   margin: 40pt;
 }
-.submit-button {
-  background-color: var(--mainColor);
+/* .submit-button { */
+/* background-color: var(--mainColor);
+} */
+button:hover {
+  background-color: var(--secondaryColor) !important;
 }
 
 @media only screen and (max-width: 1024px) {

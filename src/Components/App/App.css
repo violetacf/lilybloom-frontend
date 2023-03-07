@@ -2,7 +2,8 @@
 
 :root {
   --textColor: #000000;
-  --secondaryColor: #82dd8e;
+  /* --secondaryColor: #82dd8e; */
+  --secondaryColor: teal;
   --mainColor: #000000;
   --mainColorLight: #ffffff;
 }

@@ -20,6 +20,10 @@
 .img-logo-container a {
   align-self: center;
   text-decoration: none;
+  color: var(--mainColor);
+}
+.img-logo-container a:hover {
+  color: var(--secondaryColor);
 }
 
 .links-logo {

@@ -7,6 +7,7 @@ import NavBar from '../NavBar/NavBar';
 import Gallery from '../Gallery/Gallery';
 import CreatedBy from '../Created/Created';
 import Contact from '../Contact/Contact';
+import WhatIDo from '../WhatIDo/WhatIDo';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="contact" element={<Contact />} />
+          {/* <Route path="whatIdo" element={<WhatIDo />} /> */}
           {/* <Route path="events" element={<Events />} /> */}
         </Routes>
         <SocialMediaLinks />

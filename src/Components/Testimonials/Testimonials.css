@@ -26,6 +26,14 @@
   margin: 0 !important;
 }
 
+.testimonials-container p {
+  padding: 0;
+  margin-bottom: 0pt !important;
+  margin-top: 50pt !important;
+  font-family: 'flower1', sans-serif;
+  font-size: 35pt;
+}
+
 @media only screen and (max-width: 1024px) {
   .testimonial-container {
     padding: 0pt;

@@ -8,9 +8,9 @@ function CarouselTestimonials() {
   };
 
   return (
-    <div className="App">
+    <div className="testimonials-container">
       <div style={{ textAlign: 'center' }}>
-        <h2>What my clients say about me</h2>
+        <p>What my clients say about me</p>
         <div className="testimonial-container">
           <Carousel
             data={testimonials}

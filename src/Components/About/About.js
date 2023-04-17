@@ -1,4 +1,5 @@
 import Testimonials from '../Testimonials/Testimonials.js';
+// import SimpleSlider from './../Testimonials/Testi.js';
 
 export default function About() {
   return (
@@ -31,6 +32,7 @@ export default function About() {
         </p>
       </div>
       <Testimonials />
+      {/* <SimpleSlider /> */}
     </div>
   );
 }

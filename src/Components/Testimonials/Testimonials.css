@@ -3,7 +3,20 @@
 }
 
 .testimonial-container {
-  padding: 20pt;
+  padding: 0pt;
+}
+
+.carousel-container {
+  background-color: var(--secondaryColor) !important;
+  /* margin: 0; */
+  /* margin: 0 !important; */
+}
+
+/* See here which margin I have to get rid of to avoid seeing the colour in the background - when taking of the margin from * in the console it is gone. */
+
+.carousel-image {
+  /* margin: 0; */
+  margin: 0 !important;
 }
 
 @media only screen and (max-width: 1024px) {

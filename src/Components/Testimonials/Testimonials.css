@@ -1,26 +1,13 @@
-.testimonial .slick-arrow.slick-prev,
-.testimonial .slick-arrow.slick-next {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-  border-radius: 5px;
+.carousel-caption-bottom {
+  color: black !important;
 }
-.testimonial .slick-prev::before,
-.testimonial .slick-next::before {
-  display: none;
+
+.testimonial-container {
+  padding: 20pt;
 }
-.testimonial .slick-arrow.slick-next {
-  right: -70px;
-}
-.testimonial .slick-arrow.slick-prev {
-  left: -70px;
-}
-.testimonial .slick-dots li button:before {
-  font-size: 15px;
-}
-.testimonial .slick-dots li {
-  top: 15px;
+
+@media only screen and (max-width: 1024px) {
+  .testimonial-container {
+    padding: 0pt;
+  }
 }

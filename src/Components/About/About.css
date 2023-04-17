@@ -1,0 +1,27 @@
+.image-intro-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20pt;
+}
+
+.image-intro-container img {
+  max-width: 100%;
+  border-radius: 4pt;
+}
+
+@media only screen and (max-width: 1024px) {
+  .image-intro-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7pt;
+  }
+  .image-container img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+  }
+  .image-intro-container p {
+    margin-top: 0pt;
+  }
+}

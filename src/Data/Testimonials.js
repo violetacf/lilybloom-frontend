@@ -12,12 +12,12 @@ let testimonials = [
   {
     image:
       'https://www.croydonflowerhouse.co.uk/Websites/1131/Images/upload/image/slide1New.jpg?ver=2779',
-    caption: 'Lil organised the vent very well - Susan Sarandon',
+    caption: 'Lil organised the event very well - Susan Sarandon',
   },
   {
     image:
       'https://www.theknot.com/tk-media/images/8d7f9239-ddb5-47e7-8c81-eb39283c8262~rs_768.h',
-    caption: 'This person said something good too - Frida Khalo',
+    caption: 'Lil organised a wonderful workshop - Frida Khalo',
   },
   {
     image:

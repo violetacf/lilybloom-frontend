@@ -17,9 +17,10 @@ Form {
 .ui.form {
   margin: 0 !important;
 }
-input {
+.ui.form .field .ui.input {
   margin: 0 !important;
 }
+
 button:hover {
   background-color: var(--secondaryColor) !important;
 }

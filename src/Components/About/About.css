@@ -1,7 +1,7 @@
 .image-intro-container {
   display: flex;
   flex-direction: row;
-  gap: 20pt;
+  justify-content: space-around;
 }
 
 .image-intro-container img {

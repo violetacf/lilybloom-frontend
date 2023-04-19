@@ -7,5 +7,11 @@
 .header-container img {
   max-width: 100%;
   min-width: auto;
-  width: 300pt;
+  width: 220pt;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-container img {
+    width: 180pt;
+  }
 }

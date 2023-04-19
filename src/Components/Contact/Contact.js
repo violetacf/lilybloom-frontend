@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <p>
-        Please fill out the following form, the field with an asterisk (
+        Please fill out the following form, the fields with an asterisk (
         <span className="asterisk">*</span>) are required. I will contact you as
         soon as possible:
       </p>

@@ -34,6 +34,10 @@
   cursor: pointer;
 }
 
+.image-container a {
+  margin: 0;
+}
+
 .text {
   background-color: var(--secondaryColor);
   color: var(--mainColorLight);
@@ -63,19 +67,25 @@
 @media only screen and (max-width: 1024px) {
   .display-work {
     flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
   }
+
   .text {
-    font-size: 40pt;
+    font-size: 20pt;
   }
   .image-container img {
     width: 100%;
   }
-  .image-container {
+  /* .image-container {
     width: 100%;
-  }
+  } */
   .image-container:active .overlay {
     opacity: 1;
   }
+  /* .image-container a {
+    width: 100%;
+  } */
 }
 
 /* under construction - delete after done */

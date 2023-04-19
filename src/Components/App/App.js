@@ -22,10 +22,13 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="whatIdo" element={<WhatIDo />} />
-          <Route path="flowers" element={<Flowers />} />
-          <Route path="workshops" element={<Workshops />} />
-          <Route path="therapeutical-arts" element={<TherapeuticalArts />} />
+          <Route path="whatIDo" element={<WhatIDo />} />
+          <Route path="whatIDo/flowers" element={<Flowers />} />
+          <Route path="whatIDo/workshops" element={<Workshops />} />
+          <Route
+            path="whatIDo/therapeutical-arts"
+            element={<TherapeuticalArts />}
+          />
           {/* <Route path="events" element={<Events />} /> */}
         </Routes>
         <SocialMediaLinks />

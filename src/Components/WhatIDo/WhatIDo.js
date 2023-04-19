@@ -8,7 +8,7 @@ export default function WhatIDo() {
     <>
       <div className="display-work">
         <div className="image-container">
-          <a href="/flowers">
+          <a href="whatIDo/flowers">
             <img src={flowers} alt="Avatar" className="image" />
             <div className="overlay">
               <div className="text">Flowers</div>
@@ -17,7 +17,7 @@ export default function WhatIDo() {
         </div>
 
         <div className="image-container">
-          <a href="/workshops">
+          <a href="whatIDo/workshops">
             <img src={workshops} alt="Avatar" className="image" />
             <div className="overlay">
               <div className="text">Workshops</div>
@@ -26,7 +26,7 @@ export default function WhatIDo() {
         </div>
 
         <div class="image-container">
-          <a href="/therapeutical-arts">
+          <a href="whatIDo/therapeutical-arts">
             <img src={therapeuticArts} alt="Avatar" className="image" />
             <div className="overlay">
               <div className="text">Therapeutic Arts</div>

@@ -33,6 +33,15 @@
   margin-bottom: 20pt;
 }
 
+@media only screen and (max-width: 1200px) {
+  .navbar-button {
+    width: 180pt;
+  }
+  .navbar-buttons-container {
+    gap: 2pt;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .navbar-button {
     min-width: 100%;

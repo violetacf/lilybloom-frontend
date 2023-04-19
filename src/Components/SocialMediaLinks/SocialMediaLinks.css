@@ -30,7 +30,7 @@
   width: 40pt;
 }
 
-@media only screen and (max-width: 1324px) {
+@media only screen and (max-width: 1380px) {
   .social-media-container {
     gap: 10pt;
     flex-direction: column;

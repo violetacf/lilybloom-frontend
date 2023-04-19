@@ -17,7 +17,7 @@ let testimonials = [
   {
     image:
       'https://www.theknot.com/tk-media/images/8d7f9239-ddb5-47e7-8c81-eb39283c8262~rs_768.h',
-    caption: 'Lil organised a wonderful workshop - Frida Khalo',
+    caption: 'Lil organised a wonderful workshop - Frida Kahlo',
   },
   {
     image:

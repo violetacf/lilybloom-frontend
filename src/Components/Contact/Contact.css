@@ -13,6 +13,13 @@ Form {
 /* .submit-button { */
 /* background-color: var(--mainColor);
 } */
+
+.ui.form {
+  margin: 0 !important;
+}
+input {
+  margin: 0 !important;
+}
 button:hover {
   background-color: var(--secondaryColor) !important;
 }

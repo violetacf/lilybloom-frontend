@@ -8,6 +8,9 @@ import Gallery from '../Gallery/Gallery';
 import CreatedBy from '../Created/Created';
 import Contact from '../Contact/Contact';
 import WhatIDo from '../WhatIDo/WhatIDo';
+import Flowers from '../WhatIDo/Flowers/Flowers';
+import Workshops from '../WhatIDo/Workshops/Workshops';
+import TherapeuticalArts from '../WhatIDo/TherapeuticalArts/TherapeuticalArts';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           <Route path="gallery" element={<Gallery />} />
           <Route path="contact" element={<Contact />} />
           <Route path="whatIdo" element={<WhatIDo />} />
+          <Route path="flowers" element={<Flowers />} />
+          <Route path="workshops" element={<Workshops />} />
+          <Route path="therapeutical-arts" element={<TherapeuticalArts />} />
           {/* <Route path="events" element={<Events />} /> */}
         </Routes>
         <SocialMediaLinks />

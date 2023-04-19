@@ -73,4 +73,24 @@
   .image-container {
     width: 100%;
   }
+  .image-container:active .overlay {
+    opacity: 1;
+  }
+}
+
+/* under construction - delete after done */
+
+.under-construction svg {
+  max-width: 50%;
+}
+
+.under-construction {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1250px) {
+  .under-construction svg {
+    max-width: 80%;
+  }
 }

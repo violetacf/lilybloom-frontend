@@ -1,6 +1,6 @@
 import './WhatIDo.css';
 import flowers from './../../Images/PicturesDisplayed/picture1.jpg';
-import workshop from './../../Images/PicturesDisplayed/workshop.webp';
+import workshops from './../../Images/PicturesDisplayed/workshop.webp';
 import therapeuticArts from './../../Images/PicturesDisplayed/picture2.JPG';
 
 export default function WhatIDo() {
@@ -8,22 +8,30 @@ export default function WhatIDo() {
     <>
       <div className="display-work">
         <div className="image-container">
-          <img src={flowers} alt="Avatar" className="image" />
-          <div className="overlay">
-            <div className="text">Flowers</div>
-          </div>
+          <a href="/flowers">
+            <img src={flowers} alt="Avatar" className="image" />
+            <div className="overlay">
+              <div className="text">Flowers</div>
+            </div>
+          </a>
         </div>
+
         <div className="image-container">
-          <img src={workshop} alt="Avatar" className="image" />
-          <div className="overlay">
-            <div className="text">Workshops</div>
-          </div>
+          <a href="/workshops">
+            <img src={workshops} alt="Avatar" className="image" />
+            <div className="overlay">
+              <div className="text">Workshops</div>
+            </div>
+          </a>
         </div>
+
         <div class="image-container">
-          <img src={therapeuticArts} alt="Avatar" className="image" />
-          <div className="overlay">
-            <div className="text">Therapeutic Arts</div>
-          </div>
+          <a href="/therapeutical-arts">
+            <img src={therapeuticArts} alt="Avatar" className="image" />
+            <div className="overlay">
+              <div className="text">Therapeutic Arts</div>
+            </div>
+          </a>
         </div>
       </div>
     </>

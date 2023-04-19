@@ -20,7 +20,9 @@ Form {
 .ui.form .field .ui.input {
   margin: 0 !important;
 }
-
+.ui.form .required.field > label:after {
+  color: var(--secondaryColor) !important;
+}
 button:hover {
   background-color: var(--secondaryColor) !important;
 }

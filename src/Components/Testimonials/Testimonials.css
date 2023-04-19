@@ -22,22 +22,14 @@
 }
 
 .carousel-container {
-  background-color: var(--secondaryColor) !important;
-  /* background-color: white !important; */
-
-  /* margin: 0; */
-  /* margin: 0 !important; */
+  background-color: var(--mainColorLight) !important;
 }
 
-/* See here which margin I have to get rid of to avoid seeing the colour in the background - when taking of the margin from * in the console it is gone. */
-
 .carousel-image {
-  /* margin: 0; */
   margin: 0 !important;
 }
 
 .carousel-caption-bottom {
-  /* margin: 0; */
   margin: 0 !important;
 }
 

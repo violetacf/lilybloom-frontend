@@ -31,6 +31,11 @@ const Contact = () => {
 
   return (
     <div className="contact">
+      <p>
+        Please fill out the following form, the field with an asterisk (
+        <span className="asterisk">*</span>) are required. I will contact you as
+        soon as possible:
+      </p>
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
           id="form-input-control-email"

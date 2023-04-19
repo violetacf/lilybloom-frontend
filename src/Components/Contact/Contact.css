@@ -23,6 +23,10 @@ Form {
 .ui.form .required.field > label:after {
   color: var(--secondaryColor) !important;
 }
+
+.asterisk {
+  color: var(--secondaryColor);
+}
 button:hover {
   background-color: var(--secondaryColor) !important;
 }

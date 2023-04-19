@@ -1,12 +1,12 @@
 .image-container {
   position: relative;
-  width: 50%;
+  width: 30%;
 }
 
 .image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 0;
   border-radius: 29% 71% 33% 67% / 50% 26% 74% 50%;
 }
@@ -24,16 +24,19 @@
   transition: 0.5s ease;
   background-color: #888cba;
   margin: 0;
+  border-color: pink;
 }
 
 .image-container:hover .overlay {
   opacity: 1;
+  cursor: pointer;
+  border-color: pink;
 }
 
 .text {
   background-color: #888cba;
   color: white;
-  font-size: 30pt;
+  font-size: 25pt;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,4 +44,10 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.display-work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

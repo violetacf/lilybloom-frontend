@@ -12,10 +12,10 @@ export default function NavBar() {
           {' '}
           <button className="navbar-button"> Gallery </button>
         </a>
-        {/* <a href="/whatIDo">
+        <a href="/whatIDo">
           {' '}
           <button className="navbar-button"> What I Do </button>
-        </a> */}
+        </a>
         <a href="/contact">
           {' '}
           <button className="navbar-button"> Contact </button>

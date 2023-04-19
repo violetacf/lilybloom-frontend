@@ -1,3 +1,18 @@
+/* 
+.carousel-container {
+  margin: 0 !important;
+} */
+
+.testimonial-container div {
+  margin: 0;
+  /* justify-content: space-around; */
+}
+
+/* .carousel-container {
+  display: flex;
+  justify-content: space-around;
+} */
+
 .carousel-caption-bottom {
   color: black !important;
 }
@@ -7,8 +22,8 @@
 }
 
 .carousel-container {
-  /* background-color: var(--secondaryColor) !important; */
-  background-color: white !important;
+  background-color: var(--secondaryColor) !important;
+  /* background-color: white !important; */
 
   /* margin: 0; */
   /* margin: 0 !important; */

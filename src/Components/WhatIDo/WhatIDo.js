@@ -25,7 +25,7 @@ export default function WhatIDo() {
           </a>
         </div>
 
-        <div class="image-container">
+        <div className="image-container">
           <a href="whatIDo/therapeutical-arts">
             <img src={therapeuticArts} alt="Avatar" className="image" />
             <div className="overlay">

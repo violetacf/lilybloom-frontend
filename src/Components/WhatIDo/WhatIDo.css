@@ -2,7 +2,7 @@
 
 .image-container {
   position: relative;
-  width: 30%;
+  /* width: 30%; */
 }
 
 .image {
@@ -71,21 +71,25 @@
     align-items: center;
   }
 
+  .overlay {
+    opacity: 0.7;
+    margin: 0;
+  }
   .text {
-    font-size: 20pt;
+    font-size: 30pt;
   }
+
   .image-container img {
-    width: 100%;
+    width: 120%;
+    margin: 0 !important;
   }
-  /* .image-container {
-    width: 100%;
-  } */
+  .image-container {
+    width: auto;
+  }
+
   .image-container:active .overlay {
     opacity: 1;
   }
-  /* .image-container a {
-    width: 100%;
-  } */
 }
 
 /* under construction - delete after done */

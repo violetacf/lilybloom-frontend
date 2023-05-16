@@ -25,6 +25,10 @@ export default function NavBar() {
           {' '}
           <button className="navbar-button"> Events </button>
         </a> */}
+        {/* <a href="/blog">
+          {' '}
+          <button className="navbar-button"> Blog </button>
+        </a> */}
       </div>
     </div>
   );
